@@ -14,29 +14,29 @@ Proceso TP2_EJ3
 	//Utilizamos la estructura condicional:
 	
 	Segun mes Hacer
-		1:
+		caso 1:
 			Escribir " Enero: 31 días. ";
-		2:
+		caso 2:
 			Escribir " Febrero: 28/29 días. ";
-		3:
+		caso 3:
 			Escribir " Marzo: 31 días. ";
-		4:
+		caso 4:
 			Escribir " Abril: 30 días. ";
-		5:
+		caso 5:
 			Escribir " Mayo: 31 días. ";
-		6:
+		caso 6:
 			Escribir " Junio: 30 días. ";
-		7:
+		caso 7:
 			Escribir " Julio: 31 días. ";
-		8:
+		caso 8:
 			Escribir " Agosto: 31 días. ";
-		9:
+		caso 9:
 			Escribir " Septiembre: 30 días. ";
-		10:
+		caso 10:
 			Escribir " Octubre: 31 días. ";
-		11:
+		caso 11:
 			Escribir " Nomviembre: 30 días. ";
-		12:	
+		caso 12:	
 			Escribir " Diciembre: 31 días. ";
 		De Otro Modo:
 			Escribir " El valor ingresado no es valido.";

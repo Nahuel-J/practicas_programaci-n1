@@ -22,15 +22,15 @@ Proceso TP2_EJ1
 	//Utilizamos la estructura condicional.
 	
 	Segun numero_1 Hacer
-		0:
+		caso 0:
 			Escribir " No hay establecido un valor definido para el tipo de bomba. ";
-		1:
+		caso 1:
 			Escribir " La bomba es una bomba de agua. ";
-		2:
+		caso 2:
 			Escribir " La bomba es una bomba de gasolina. ";
-		3:
+		caso 3:
 			Escribir " La bomba es una bomba de hormigón. ";
-		4:
+		caso 4:
 			Escribir " La bomba es una bomba de pasta alimenticia. ";
 		De Otro Modo:
 			Escribir " No existe un valor válido para tipo de bomba. ";

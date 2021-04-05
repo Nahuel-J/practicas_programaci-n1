@@ -39,19 +39,19 @@ Proceso TP2_EJ4
 			Escribir " Ingresar el valor que desea convertir: ";
 			Leer pesos;
 			Segun numero_1 Hacer
-				1:
+				caso 1:
 					resultado = (pesos * 0.11);
 					Escribir " El resultado de la conversion es: ",pesos," peso/s argentinos equivalen a ",resultado," dolar/es";
-				2:
+				caso 2:
 					resultado = (pesos * 7.83);
 					Escribir " El resultado de la conversion es: ",pesos," peso/s argentinos equivalen a ",resultado," peso/s chileno/s ";
-				3:
+				caso 3:
 					resultado = (pesos * 0.0079);
 					Escribir " El resultado de la conversion es: ",pesos," peso/s argentinos equivalen a ",resultado," libra/s esterlina/s";
-				4:
+				caso 4:
 					resultado = (pesos * 0.041);
 					Escribir " El resultado de la conversion es: ",pesos," peso/s argentinos equivalen a ",resultado," sol/es peruano/s";
-				5:
+				caso 5:
 					resultado = (pesos * 0.071);
 					Escribir " El resultado de la conversion es: ",pesos," peso/s argentinos equivalen a ",resultado," yuan/es ";
 			FinSegun
